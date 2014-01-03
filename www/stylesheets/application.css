@@ -1,0 +1,38 @@
+* {
+  -webkit-user-select: none;  /* Disable selection/copy of elements when tapping for a long time */
+  -webkit-touch-callout: none; /* Disable touch callouts */
+}
+
+input, textarea, [contenteditable] * {
+  -webkit-user-select: auto;  /* Allow selection for input elements and those with contenteditable attribute */
+}
+
+body {
+  background: transparent url('../images/bodybg.jpg') repeat top center;
+}
+
+.content-padded {
+  padding: 10px;
+}
+
+.container {
+  background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    margin: 1em 0;
+    padding: 1em;
+    position: relative;
+}
+
+/* Form */
+
+.ui.input {
+    color: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    position: relative;
+}
+
+.ui.teal.buttons .button, .ui.teal.button {
+    background-color: #00B5AD;
+    color: #FFFFFF;
+}

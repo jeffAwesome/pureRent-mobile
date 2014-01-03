@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pure Rent</title>
+
+  <link rel="stylesheet" href="/vendor/topcoat/css/topcoat-mobile-light.css" />
+  <link rel="stylesheet" href="/stylesheets/application.css" />
+
+  <script src="/javascripts/onerror.js"></script>
+  <script src="/javascripts/console.log.js"></script>
+
+  <!-- cordova.js is served from localhost to ensure the correct version -->
+  <script src="http://localhost/cordova.js"></script>
+  <script src="/components/steroids-js/steroids.js"></script>
+
+  <script src="/javascripts/application.js"></script>
+</head>
+<body>
+  <div class="content-padded">
+
+    <script>
+    var button = new steroids.buttons.NavigationBarButton();
+    var rightButton = new steroids.buttons.NavigationBarButton();
+    button.title = "Back"
+    button.onTap = function() {
+        steroids.layers.pop();
+    };
+
+
+    rightButton.title = "Settings"
+    rightButton.onTap = function() {
+      settings();
+    };
+
+
+    steroids.view.navigationBar.setButtons({
+      left: [button],
+      right: [rightButton],
+      overrideBackButton: true
+    });
+</script>
+
+    <div class="container">
+       <h2>Renter Dashboard</h2>
+
+       <div class="quick_action">
+         <h3 class="renter"><span>Johnny User</span></h3>
+         <div class="rent-period due-now">Jan 2012 - Feb 2012</div>
+         <a class="btn pay teal" href="#">Pay Now</a>
+       </div>
+
+    </div>
+
+  </div>
+</body>
+</html>
