@@ -8,8 +8,15 @@ input, textarea, [contenteditable] * {
 }
 
 body {
-  background: transparent url('../images/bodybg.jpg') repeat top center;
+  background-color: #f6f2e7;
 }
+
+/* Index Screen */
+.logo img{
+  width: 98%;
+  margin: 0 auto;
+}
+
 
 .content-padded {
   padding: 10px;
@@ -36,3 +43,47 @@ body {
     background-color: #00B5AD;
     color: #FFFFFF;
 }
+
+/* Buttons */
+
+.btn {
+  display: block;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.login {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.teal {
+  background-color: #00B5AD;
+  color: #FFFFFF;
+}
+
+
+/* History */
+.history {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.history li {
+  border-bottom: 1px solid #666;
+  padding: 5px;
+}
+.late {
+  background-color: #ec8484;
+}
+
+
+
+
+
+
+
+
+
+

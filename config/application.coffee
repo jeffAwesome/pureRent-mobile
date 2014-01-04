@@ -29,16 +29,13 @@ steroids.config.location = "http://localhost/index.html"
 # steroids.config.tabBar.backgroundImage = ""
 
 # -- Navigation Bar --
-steroids.config.navigationBar.tintColor = "#00aeef"
-steroids.config.navigationBar.titleColor = "#ffffff"
+steroids.config.navigationBar.tintColor = "#f7f3e8"
+steroids.config.navigationBar.titleColor = "#444341"
 steroids.config.navigationBar.buttonTintColor = "#ffffff"
-steroids.config.navigationBar.buttonTitleColor = "#ffffff"
-
-steroids.config.navigationBar.portrait.backgroundImage = "images/headerbg.jpg"
-steroids.config.navigationBar.landscape.backgroundImage = "images/headerbg.jpg"
+steroids.config.navigationBar.buttonTitleColor = "#35877c"
 
 # -- Android Loading Screen
-steroids.config.loadingScreen.tintColor = "#262626"
+steroids.config.loadingScreen.tintColor = "#f4f0e5"
 
 # -- iOS Status Bar --
 steroids.config.statusBar.enabled = true

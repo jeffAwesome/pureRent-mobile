@@ -18,3 +18,12 @@ function settings() {
   steroids.layers.push(webView);
 }
 
+
+function renterLogin() {
+  var webView = new steroids.views.WebView("renter-login.html");
+  steroids.layers.push(webView);
+}
+
+function landlordLogin() {
+}
+

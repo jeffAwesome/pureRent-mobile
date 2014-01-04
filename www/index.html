@@ -20,10 +20,13 @@
 <body>
   <div class="content-padded">
 
-    <div class="container">
-      <h2>Sign in</h2><form accept-charset="UTF-8" action="" class="simple_form ui form segment" id="new_users" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Z+54h9bIdtfvSDtfozgBqGG4BubfR29SO3Fxhay7npM=" /></div><div class="field"><label class="email optional" for="landlord_email">Email</label><div class="ui left labeled icon input"><input autofocus="autofocus" id="landlord_email" name="landlord[email]" type="email" value="" /><i class="user icon"></i></div></div><div class="field"><label class="password optional" for="landlord_password">Password</label><div class="ui left labeled icon input"><input id="landlord_password" name="landlord[password]" type="password" /><i class="lock icon"></i></div></div><div class="inline field"><div class="ui checkbox"><input name="landlord[remember_me]" type="hidden" value="0" /><input id="landlord_remember_me" name="landlord[remember_me]" type="checkbox" value="1" /><label class="string optional" for="landlord_remember_me">Remember me</label></div></div><div><input class="ui teal button" id="button-login" onClick="loginForm()"  name="commit" type="submit" value="Sign in" /></div></form>
-      <ul class="ui text menu"><a class="item" href="/users/sign_up">Sign up</a><a class="item" href="/users/password/new">Forgot your password?</a></ul>
-    </div>
+
+      <h1 class="logo">
+        <img src="images/logo.png" alt="Pure Rent" />
+      </h1>
+
+      <a class="btn teal login"  ontouchend="renterLogin()">Renter</a>
+      <a class="btn teal login"  ontouchend="landlordLogin()">Landlord</a>
 
   </div>
 </body>
